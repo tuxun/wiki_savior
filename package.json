@@ -1,0 +1,28 @@
+{
+  "name": "wiki_savior",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "echo \"Error: no install specified\" && exit 1",
+    "start": "node load_allpages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxun/wiki_savior.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuxun/wiki_savior/issues"
+  },
+  "homepage": "https://github.com/tuxun/wiki_savior",
+  "main": "load_allpages.js",
+  "dependencies": {
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sqlite3": "^4.2.0"
+  }
+}
